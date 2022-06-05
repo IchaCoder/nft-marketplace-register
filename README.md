@@ -1,33 +1,28 @@
-<!-- @format -->
+# Registeration Page Intended for NFTs and Web3 Webapp
 
-# Front-End
+**App was made by react using** _Create React App_
 
-## The original project
+## Dependencies used
 
-Started by CRA
+* React Router DOM
+* Formik & Yup
+* React icons
 
-Every update will be pushed to this branch until it is ready to be pushed to master.
+**Users can navigate to:**
 
-## How to
+1. Login page
+2. Signup page
+3. Forgot password page
 
-1. Clone the repo.
+> The above points will be validated in the client side by formik and yup packages
 
-2. Create a new branch you are coming to work on.
+[Preview Link](https://www.nft-register.netlify.app)
 
-3. After you are done working push the remote branch to the repo.
+### You can follow this instructions to clone this repo locally
 
-4. Compare and pull the changes to the develop branch
-
-5. Delete the unused branch.(both local and on github)
-
-If you have already cloned the repo,
-
-1. Create a new branch (to get changes made by others).
-
-2. Pull the repo to your new branch.
-
-3. After working on it push it to github.
-
-4. Compare and pull the changes to the develop branch
-
-5. Delete the unused branch.(both local and on github)
+```bash
+git clone <Link goes here>
+cd <repo name>
+npm install
+npm start
+```
